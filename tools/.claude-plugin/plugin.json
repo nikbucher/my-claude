@@ -1,0 +1,15 @@
+{
+  "name": "tools",
+  "description": "Personal toolkit: commit messages, CLI guides (eza, miller), Pfadfinder refactoring workflow, and development agents",
+  "version": "0.1.0",
+  "author": {
+    "name": "Niklaus Bucher",
+    "email": "niklaus@bucher.io"
+  },
+  "keywords": [
+    "git",
+    "refactoring",
+    "eza",
+    "miller"
+  ]
+}
