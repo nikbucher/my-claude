@@ -24,7 +24,7 @@ A personal Claude Code plugin marketplace with CLI tool guides, a git workflow, 
 
 ```bash
 /plugin marketplace add nikbucher/my-claude
-/plugin install my-claude
+/plugin install my-tools
 ```
 
 ## Prerequisites
