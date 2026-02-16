@@ -41,7 +41,12 @@ end
 
 ## Parameter
 
-- `$ARGUMENTS` - Optionen: `--analyze`, `--next`, `--rebase`, `--status`, `--target-branch=<branch>`
+- `$ARGUMENTS` - Optionen:
+    - `-t <branch>`, `--target-branch=<branch>` — Ziel-Branch (Pfadfinder)
+    - `--analyze` (Default)
+    - `--next`
+    - `--rebase`
+    - `--status`
 
 ## Kontext
 
