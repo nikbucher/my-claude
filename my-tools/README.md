@@ -41,6 +41,11 @@ Includes helper scripts:
 - `detect.sh` -- finds branches that are exactly 1 commit ahead
 - `rebase.sh` -- rebases the scout branch onto the implementation branch
 
+### vision
+
+Creates or updates a project vision document (`docs/vision.md`). Asks about goal, users, core features, and value proposition, then generates a structured vision covering goal, users, core features,
+key workflows, and success criteria. Focuses on WHAT, not HOW — no technology details.
+
 ## Agents
 
 ### se-engineer
@@ -129,10 +134,14 @@ my-claude/
 │   │   └── SKILL.md
 │   ├── miller/
 │   │   └── SKILL.md
-│   └── pfadfinder/
+│   ├── pfadfinder/
+│   │   ├── SKILL.md
+│   │   ├── detect.sh
+│   │   └── rebase.sh
+│   └── vision/
 │       ├── SKILL.md
-│       ├── detect.sh
-│       └── rebase.sh
+│       └── templates/
+│           └── vision.md
 ├── agents/
 │   ├── se-engineer.md
 │   └── meta-agent.md
