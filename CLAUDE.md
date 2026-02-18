@@ -9,7 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-A Claude Code plugin marketplace (`my-claude`) containing three plugins: `my-tools` (skills + agents), `my-mcp` (core MCP servers), and `my-mcp-jvm` (JVM MCP servers). Provides CLI guides, workflows, development agents, and MCP server integrations for Vaadin/jOOQ development.
+A Claude Code plugin marketplace (`my-claude`) containing four plugins: `my-tools` (skills + agents), `my-mcp` (core MCP servers), `my-mcp-jvm` (JVM MCP servers), and `my-rust` (Rust LSP). Provides CLI guides, workflows, development agents, MCP server integrations, and LSP integrations.
 
 ## Architecture
 
@@ -27,6 +27,8 @@ my-mcp/                           — core MCP servers (Context7, Playwright)
 my-mcp-jvm/                       — JVM MCP servers (Vaadin, Karibu, jOOQ, JavaDocs)
   .claude-plugin/plugin.json
   .mcp.json
+my-rust/                          — Rust LSP (rust-analyzer)
+  .claude-plugin/plugin.json      — plugin manifest with lspServers config
 ```
 
 **Marketplace vs Plugin**: `.claude-plugin/marketplace.json` at root defines this repo as a marketplace. Each plugin has its own `.claude-plugin/plugin.json`.

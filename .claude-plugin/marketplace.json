@@ -19,6 +19,11 @@
       "name": "my-mcp-jvm",
       "source": "./my-mcp-jvm",
       "description": "JVM MCP servers: Vaadin, Karibu Testing, jOOQ, JavaDocs"
+    },
+    {
+      "name": "my-rust",
+      "source": "./my-rust",
+      "description": "Rust development: rust-analyzer LSP for code intelligence and analysis"
     }
   ]
 }

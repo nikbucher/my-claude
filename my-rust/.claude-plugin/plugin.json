@@ -1,0 +1,22 @@
+{
+  "name": "my-rust",
+  "description": "Rust development: rust-analyzer LSP for code intelligence and analysis",
+  "version": "0.1.0",
+  "author": {
+    "name": "Niklaus Bucher",
+    "email": "niklaus@bucher.io"
+  },
+  "keywords": [
+    "rust",
+    "lsp",
+    "rust-analyzer"
+  ],
+  "lspServers": {
+    "rust-analyzer": {
+      "command": "rust-analyzer",
+      "extensionToLanguage": {
+        ".rs": "rust"
+      }
+    }
+  }
+}
