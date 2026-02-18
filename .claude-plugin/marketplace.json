@@ -9,6 +9,16 @@
       "name": "my-tools",
       "source": "./my-tools",
       "description": "Personal toolkit: commit messages, CLI guides (eza, miller), Pfadfinder refactoring workflow, and development agents"
+    },
+    {
+      "name": "my-mcp",
+      "source": "./my-mcp",
+      "description": "Core MCP servers: context7, playwright"
+    },
+    {
+      "name": "my-mcp-jvm",
+      "source": "./my-mcp-jvm",
+      "description": "JVM MCP servers: Vaadin, Karibu Testing, jOOQ, JavaDocs"
     }
   ]
 }

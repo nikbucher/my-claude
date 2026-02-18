@@ -1,0 +1,14 @@
+{
+  "name": "my-mcp",
+  "description": "Core MCP servers: Context7, Playwright",
+  "version": "0.1.0",
+  "author": {
+    "name": "Niklaus Bucher",
+    "email": "niklaus@bucher.io"
+  },
+  "keywords": [
+    "mcp",
+    "context7",
+    "playwright"
+  ]
+}

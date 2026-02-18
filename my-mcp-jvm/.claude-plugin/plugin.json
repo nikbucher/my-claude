@@ -1,0 +1,16 @@
+{
+  "name": "my-mcp-jvm",
+  "description": "MCP servers for JVM development: Vaadin, Karibu Testing, jOOQ, JavaDocs",
+  "version": "0.1.0",
+  "author": {
+    "name": "Niklaus Bucher",
+    "email": "niklaus@bucher.io"
+  },
+  "keywords": [
+    "mcp",
+    "vaadin",
+    "jooq",
+    "javadocs",
+    "karibu"
+  ]
+}

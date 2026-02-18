@@ -23,8 +23,29 @@ A personal Claude Code plugin marketplace with CLI tool guides, a git workflow, 
 ## Install
 
 ```bash
+# In claude code
 /plugin marketplace add nikbucher/my-claude
 /plugin install my-tools
+
+# In terminal
+claude plugin marketplace add nikbucher/my-claude
+claude plugin install my-tools@my-claude
+```
+
+## Uninstall
+
+```bash
+# In claude code
+/plugin disable my-tools
+
+/plugin uninstall my-tools
+/plugin marketplace remove nikbucher/my-claude
+
+# In terminal
+claude plugin disable my-tools
+
+claude plugin uninstall my-tools@my-claude
+claude plugin marketplace remove nikbucher/my-claude
 ```
 
 ## Prerequisites
