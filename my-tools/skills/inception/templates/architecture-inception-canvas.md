@@ -12,11 +12,11 @@
 
 ### 3. Quality Goals
 
-| Priority | Quality Goal | Scenario |
-|----------|--------------|----------|
-| 1 | {Goal} | {Measurable scenario} |
-| 2 | {Goal} | {Measurable scenario} |
-| 3 | {Goal} | {Measurable scenario} |
+| Priority | Quality Goal | Scenario              |
+|----------|--------------|-----------------------|
+| 1        | {Goal}       | {Measurable scenario} |
+| 2        | {Goal}       | {Measurable scenario} |
+| 3        | {Goal}       | {Measurable scenario} |
 
 ## SOLUTION: How can we achieve it?
 
@@ -40,6 +40,6 @@
 
 ### 8. Challenges and Risks
 
-| Risk | Probability | Impact | Mitigation |
-|------|-------------|--------|------------|
+| Risk   | Probability       | Impact            | Mitigation            |
+|--------|-------------------|-------------------|-----------------------|
 | {Risk} | {Low/Medium/High} | {Low/Medium/High} | {Mitigation strategy} |

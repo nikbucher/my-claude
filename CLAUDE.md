@@ -9,7 +9,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-A Claude Code plugin marketplace (`my-claude`) containing four plugins: `my-tools` (skills + agents), `my-mcp` (core MCP servers), `my-mcp-jvm` (JVM MCP servers), and `my-rust` (Rust LSP). Provides CLI guides, workflows, development agents, MCP server integrations, and LSP integrations.
+A Claude Code plugin marketplace (`my-claude`) containing four plugins: `my-tools` (skills + agents), `my-mcp` (core MCP servers), `my-mcp-jvm` (JVM MCP servers), and `my-rust` (Rust LSP). Provides
+CLI guides, workflows, development agents, MCP server integrations, and LSP integrations.
 
 ## Architecture
 
@@ -36,6 +37,7 @@ my-rust/                          — Rust LSP (rust-analyzer)
 ## Plugin Component Patterns
 
 ### Skills (`SKILL.md`)
+
 - YAML frontmatter: `name`, `description` (required). Description controls when Claude auto-activates the skill.
 - Body: markdown instructions with steps, rules, output format.
 - Can reference local files: `[templates/vision.md](templates/vision.md)`, helper scripts via `detect.sh`/`rebase.sh`.
@@ -43,6 +45,7 @@ my-rust/                          — Rust LSP (rust-analyzer)
 - Shell commands in context blocks: `!`​`git branch --show-current` runs at activation time.
 
 ### Agents (`.md` in `agents/`)
+
 - YAML frontmatter: `name`, `description` (required), `tools`, `color`, `model` (optional).
 - `description` must include trigger conditions ("Use this when...", "Use proactively after...").
 - Body: system prompt defining the agent's persona and methodology.
