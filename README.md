@@ -10,8 +10,10 @@ A personal Claude Code plugin marketplace with CLI tool guides, a git workflow, 
 |--------------------|-------------------------------------------------------------------------------------------------|
 | **commit-message** | Generates git commit messages from staged changes                                               |
 | **eza**            | Reference guide for [eza](https://github.com/eza-community/eza), a modern `ls` replacement      |
+| **inception**      | Creates or updates an Architecture Inception Canvas (AIC)                                       |
 | **miller**         | Reference guide for [Miller](https://github.com/johnkerl/miller), a CSV/TSV/JSON data processor |
 | **pfadfinder**     | Guided incremental refactoring workflow using a scout branch as target state                    |
+| **vision**         | Creates or updates the project vision document                                                  |
 
 ### Agents
 
@@ -30,6 +32,31 @@ A personal Claude Code plugin marketplace with CLI tool guides, a git workflow, 
 # In terminal
 claude plugin marketplace add nikbucher/my-claude
 claude plugin install my-tools@my-claude
+```
+
+By default, plugins are installed at user scope (all projects). To limit scope:
+
+```bash
+/plugin install my-tools --scope project   # whole team, via .claude/settings.json
+/plugin install my-tools --scope local     # only you, only this project
+```
+
+| Scope   | File                          | Visibility                  |
+|---------|-------------------------------|-----------------------------|
+| user    | `~/.claude/settings.json`     | Only you, in all projects   |
+| project | `.claude/settings.json`       | Whole team (in Git)         |
+| local   | `.claude/settings.local.json` | Only you, only this project |
+
+## Update
+
+Third-party marketplaces have no auto-update by default.
+
+```bash
+# Manual update
+/plugin update my-claude
+
+# Enable auto-update via UI
+# /plugin → Marketplaces → Auto-Update
 ```
 
 ## Uninstall
