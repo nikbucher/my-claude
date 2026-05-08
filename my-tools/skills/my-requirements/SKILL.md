@@ -1,13 +1,6 @@
 ---
 name: my-requirements
-description: >
-  Gathers, organizes, and documents software requirements into structured
-  catalogs with functional requirements (user stories), non-functional
-  requirements (measurable quality attributes), and constraints. Use when
-  the user asks to "write requirements", "create a PRD", "gather requirements",
-  "document feature specs", "write user stories", "define NFRs", "list
-  constraints", or mentions requirements catalog, requirements analysis,
-  product requirements document, or feature specification.
+description: Gathers and documents software requirements into structured catalogs with user stories, NFRs, and constraints. Use when writing requirements, PRDs, feature specs, user stories, or requirements analysis.
 ---
 
 # Requirements
@@ -161,8 +154,7 @@ Every requirement must pass these checks before finalizing:
 ## Workflow
 
 1. Read the vision document or project brief
-2. Use TodoWrite to create tasks for each requirement type
-3. Write the document header
+2. Write the document header
 4. For functional requirements:
     - Identify user roles
     - Define user stories with clear goals and benefits

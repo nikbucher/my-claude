@@ -1,9 +1,6 @@
 ---
 name: vision
-description: >
-  Creates or updates the project vision.
-  Use when the user asks to "start a new project", "create a vision",
-  "define the project scope", or mentions project vision or project kickoff.
+description: Creates or updates the project vision document (docs/vision.md). Use when starting a new project, creating a vision, defining project scope, or project kickoff.
 ---
 
 # Vision

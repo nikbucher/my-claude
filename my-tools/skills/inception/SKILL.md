@@ -1,9 +1,6 @@
 ---
 name: inception
-description: >
-  Creates or updates the Architecture Inception Canvas (AIC).
-  Use when the user asks to "create an inception canvas", "architecture inception",
-  "document architecture goals", "AIC", or mentions inception canvas or arc42 inception.
+description: Creates or updates the Architecture Inception Canvas (AIC). Use when asked for inception canvas, AIC, arc42 inception, or documenting architecture goals.
 ---
 
 # Architecture Inception Canvas
