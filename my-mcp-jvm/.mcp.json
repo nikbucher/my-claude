@@ -1,18 +1,18 @@
 {
   "mcpServers": {
-    "Vaadin": {
+    "vaadin": {
       "type": "http",
       "url": "https://mcp.vaadin.com/docs"
     },
-    "KaribuTesting": {
+    "karibu-testing": {
       "type": "http",
       "url": "https://karibu-testing-mcp.martinelli.ch/mcp"
     },
-    "jOOQ": {
+    "jooq": {
       "type": "http",
       "url": "https://jooq-mcp.martinelli.ch/mcp"
     },
-    "JavaDocs": {
+    "javadocs": {
       "type": "http",
       "url": "https://www.javadocs.dev/mcp"
     }

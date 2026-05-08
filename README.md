@@ -6,14 +6,15 @@ A personal Claude Code plugin marketplace with CLI tool guides, a git workflow, 
 
 ### Skills
 
-| Skill              | Description                                                                                     |
-|--------------------|-------------------------------------------------------------------------------------------------|
-| **commit-message** | Generates git commit messages from staged changes                                               |
-| **eza**            | Reference guide for [eza](https://github.com/eza-community/eza), a modern `ls` replacement      |
-| **inception**      | Creates or updates an Architecture Inception Canvas (AIC)                                       |
-| **miller**         | Reference guide for [Miller](https://github.com/johnkerl/miller), a CSV/TSV/JSON data processor |
-| **pfadfinder**     | Guided incremental refactoring workflow using a scout branch as target state                    |
-| **vision**         | Creates or updates the project vision document                                                  |
+| Skill                | Description                                                                             |
+|----------------------|-----------------------------------------------------------------------------------------|
+| **commit-message**   | Generates git commit messages from staged changes                                       |
+| **eza**              | Use [eza](https://github.com/eza-community/eza) instead of `ls` with git integration and tree views |
+| **inception**        | Creates or updates an Architecture Inception Canvas (AIC)                               |
+| **miller**           | Use [Miller (mlr)](https://github.com/johnkerl/miller) for CSV/TSV/JSON tabular data instead of awk/sed/grep |
+| **my-requirements**  | Gathers and documents requirements into structured catalogs with user stories and NFRs  |
+| **pfadfinder**       | Guided incremental refactoring workflow using a scout branch as target state            |
+| **vision**           | Creates or updates the project vision document                                          |
 
 ### Agents
 

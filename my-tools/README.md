@@ -25,12 +25,19 @@ line).
 
 ### eza
 
-Reference guide for [eza](https://github.com/eza-community/eza), a modern `ls` replacement. Covers git integration, tree views, icons, sorting, filtering, and common usage patterns.
+Use [eza](https://github.com/eza-community/eza) instead of `ls` for directory listings. Covers git status integration, tree views, icons, and common flag combinations.
+
+### inception
+
+Creates or updates an Architecture Inception Canvas (AIC) at `docs/inception/architecture-inception-canvas.md`. Guides through 8 sections covering Goals, Solution, and Assessment. Based on the [arc42 inception canvas](https://canvas.arc42.org/architecture-inception-canvas).
 
 ### miller
 
-Reference guide for [Miller (mlr)](https://miller.readthedocs.io/), a data processing tool for CSV, TSV, JSON, and tabular files. Covers filtering, aggregation, joins, format conversion, and chained
-operations.
+Use [Miller (mlr)](https://miller.readthedocs.io/) for processing CSV, TSV, and tabular data instead of awk/sed/grep. Covers format conversions (CSV↔JSON), filtering, aggregation, joins, and chained operations.
+
+### my-requirements
+
+Gathers and documents software requirements into `docs/requirements.md`. Produces functional requirements (user stories), non-functional requirements (measurable quality attributes), and constraints with testable acceptance criteria.
 
 ### pfadfinder
 
@@ -124,7 +131,7 @@ Original-Repo [martinellich/aiup-marketplace](https://github.com/martinellich/ai
 ## Structure
 
 ```
-my-claude/
+my-tools/
 ├── .claude-plugin/
 │   └── plugin.json
 ├── skills/
@@ -132,8 +139,17 @@ my-claude/
 │   │   └── SKILL.md
 │   ├── eza/
 │   │   └── SKILL.md
+│   ├── inception/
+│   │   ├── SKILL.md
+│   │   └── templates/
+│   │       └── architecture-inception-canvas.md
 │   ├── miller/
 │   │   └── SKILL.md
+│   ├── my-requirements/
+│   │   ├── SKILL.md
+│   │   ├── REFERENCE.md
+│   │   └── templates/
+│   │       └── requirements.md
 │   ├── pfadfinder/
 │   │   ├── SKILL.md
 │   │   ├── detect.sh
@@ -143,7 +159,7 @@ my-claude/
 │       └── templates/
 │           └── vision.md
 ├── agents/
-│   ├── se-engineer.md
-│   └── meta-agent.md
+│   ├── meta-agent.md
+│   └── se-engineer.md
 └── README.md
 ```

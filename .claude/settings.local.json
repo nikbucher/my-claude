@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(ls:*)",
+      "WebSearch",
+      "Bash(find:*)",
+      "WebFetch(domain:spec.modelcontextprotocol.io)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:gist.github.com)",
+      "WebFetch(domain:gofastmcp.com)",
+      "Bash(gh search:*)",
+      "Bash(gh api:*)"
+    ]
+  }
+}
